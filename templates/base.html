@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutual funds</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Scheme Name: {{L["meta"]["scheme_name"]}}</h1>
+        <h1>Lasted Date: {{L["data"][0]["date"]}}</h1> 
+        <h1>Lastest NAV: {{L["data"][0]["nav"]}}</h1>
+    </div>
+   {%block content%}
+   {%endblock%}
+</body>
+</html>

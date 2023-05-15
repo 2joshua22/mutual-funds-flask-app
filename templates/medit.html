@@ -1,0 +1,13 @@
+{%extends 'base.html'%}
+
+
+{%block content%}
+<form method="POST">
+    {{Form3.hidden_tag()}}
+    {{Form3.mname.label}} {{Form3.mname()}}
+    {{Form3.code.label}} {{Form3.code()}}
+    {{Form3.nav.label}} {{Form3.nav()}}
+    {{Form3.units.label}} {{Form3.units()}}
+    {{Form3.submit()}}
+</form>
+{%endblock%}
